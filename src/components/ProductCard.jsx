@@ -7,7 +7,7 @@ const ProductCard = ({ product, onRemove }) => {
    <Card className={styles.card}>
   <CardContent>
     
-    {/* ✅ Add wrapper div HERE */}
+    
     <div className={!product.inStock ? "outOfStockClass" : ""}>
       
       <Typography variant="h5">

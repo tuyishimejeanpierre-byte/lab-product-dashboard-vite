@@ -8,10 +8,8 @@ const App = () => {
     { id: 3, name: "Tablet", price: 30000, inStock: true },
   ];
 
-  // ✅ Create state
-  const [products, setProducts] = useState(sampleProducts);
 
-  // ✅ Remove handler
+  const [products, setProducts] = useState(sampleProducts)
   const handleRemove = (id) => {
     setProducts(products.filter(product => product.id !== id));
   };
@@ -20,7 +18,7 @@ const App = () => {
     <div>
       <h1>Product Dashboard</h1>
 
-      {/* ✅ Pass both products and remove function */}
+  
       <ProductList products={products} onRemove={handleRemove} />
     </div>
   );

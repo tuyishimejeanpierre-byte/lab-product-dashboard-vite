@@ -124,13 +124,3 @@ And it's gone!
 
 ## Description
 A React application that displays products dynamically with conditional rendering.
-
-## Features
-- View list of products
-- See stock status
-- Remove products
-- Conditional styling for out-of-stock items
-
-## Installation
-```bash
-npm install
