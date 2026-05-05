@@ -118,3 +118,19 @@ And it's gone!
 - [append()](https://developer.mozilla.org/en-US/docs/Web/API/Element/append)
 - [removeChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
 - [element.remove()](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
+
+
+# Product Dashboard Manager
+
+## Description
+A React application that displays products dynamically with conditional rendering.
+
+## Features
+- View list of products
+- See stock status
+- Remove products
+- Conditional styling for out-of-stock items
+
+## Installation
+```bash
+npm install
