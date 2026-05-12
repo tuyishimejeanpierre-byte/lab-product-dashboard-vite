@@ -13,7 +13,7 @@ const ProductList = ({ products, onRemove }) => {
         <ProductCard
           key={product.id}
           product={product}
-          onRemove={onRemove}   // ✅ pass it down
+          onRemove={onRemove} 
         />
       ))}
     </>
